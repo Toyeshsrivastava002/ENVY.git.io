@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Balsamiq+Sans&family=Dongle:wght@700&family=Exo:wght@500&family=Hubballi&family=Lobster&family=Luxurious+Roman&family=Playfair+Display:wght@600&family=Poppins:wght@500&family=Quicksand:wght@500&family=Syne+Mono&family=Vujahday+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Balsamiq+Sans&family=Dongle:wght@700&family=Exo:wght@500&family=Hubballi&family=Lobster&family=Luxurious+Roman&family=Playfair+Display:wght@600&family=Poppins:wght@500&family=Quicksand:wght@500&family=Roboto:wght@700&family=Syne+Mono&family=Vujahday+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Balsamiq+Sans&family=Dongle:wght@700&family=Exo:wght@500&family=Hubballi&family=Lobster&family=Luxurious+Roman&family=Poppins:wght@500&family=Quicksand:wght@500&family=Syne+Mono&family=Vujahday+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Balsamiq+Sans&family=Dongle:wght@700&family=Exo:wght@500&family=Hubballi&family=Lato:wght@300&family=Lobster&family=Luxurious+Roman&family=Oswald:wght@600&family=Playfair+Display:wght@600&family=Poppins:wght@500&family=Quicksand:wght@500&family=Roboto:wght@300;700&family=Syne+Mono&family=Vujahday+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Balsamiq+Sans&family=Dongle:wght@700&family=Exo:wght@500&family=Hubballi&family=Lobster&family=Luxurious+Roman&family=Oswald:wght@600&family=Playfair+Display:wght@600&family=Poppins:wght@500&family=Quicksand:wght@500&family=Roboto:wght@300;700&family=Syne+Mono&family=Vujahday+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Balsamiq+Sans&family=Dongle:wght@700&family=Exo:wght@500&family=Hubballi&family=Lato:wght@300&family=Lobster&family=Luxurious+Roman&family=Montserrat:wght@300&family=Oswald:wght@600&family=Playfair+Display:wght@600&family=Poppins:wght@500&family=Quicksand:wght@500&family=Roboto:wght@300;700&family=Syne+Mono&family=Vujahday+Script&display=swap');
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(0, 0, 0);
+    min-height: 100vh;
+}
+
+header {
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+}
+
+ul {
+    padding-top: 30px;
+    color: white;
+    display: flex;
+    list-style: none;
+    margin-left: 590px;
+}
+
+li {
+    font-family: 'Playfair Display', serif;
+    margin-right: 50px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+img {
+    margin-top: -340px;
+    margin-left: 221px;
+    width: 665px;
+    height: 720px;
+    transform: translateX(520px);
+}
+
+.l {
+    margin-top: -20px;
+    margin-left: -520px;
+    margin-right: 170px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.container {
+    margin-top: 220px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-left: 70px;
+}
+
+#s {
+    color: rgb(255, 255, 255);
+    font-size: 65px;
+    font-family: 'Roboto', sans-serif;
+    animation: show 2s ease-in 1;
+
+}
+
+.c-c {
+    background-color: white;
+    height: 800px;
+}
+
+.c-c-s {
+    display: flex;
+    height: 700px;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.c-pg {
+    padding-top: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.c-c-b {
+    margin-top: 70px;
+    margin-left: 40px;
+    width: 350px;
+    height: 350px;
+    background-image: url('/img/bt.jpg');
+    background-size: cover;
+    box-shadow: 0px 0px 6px black;
+}
+
+.c-c-n {
+    margin-top: 70px;
+    /* margin-left: 150px; */
+    width: 350px;
+    height: 350px;
+    background-image: url('/img/food.png');
+    background-size: cover;
+    box-shadow: 0px 0px 6px black;
+}
+
+.c-c-c {
+    margin-top: 70px;
+    /* margin-left: 350px; */
+    width: 350px;
+    height: 350px;
+    background-image: url('/img/cardio.jpg');
+    background-size: cover;
+    box-shadow: 0px 0px 6px black;
+}
+
+.c-c-b-t {
+    margin-top: -250px;
+    height: 100px;
+    color: black;
+    display: flex;
+    text-transform: uppercase;
+}
+
+#c-c-t {
+    margin-left: 284px;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+#c-c-c {
+    margin-left: 359px;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#c-c-n {
+    margin-left: 350px;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.c-a {
+    margin-top: 180px;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 300px;
+}
+.c-a-i{
+    margin-top: -250px;
+    display: inline-block;
+    width:700px;
+    height: 600px;
+    background-image: url('/img/mu.jpg');
+    background-size: cover;
+    margin-left: 700px;
+    opacity:0.79;
+}
+.c-a-a {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.c-a-m {
+    margin-top: -320px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    margin-left: 100px;
+}
+.c-b{
+    height: 350px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    
+}
+.c-b-b{text-transform: uppercase;
+    padding-top: 80px;
+    margin-left: 100px;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+.c-b-b-a button{
+    margin-left: 100px;
+    background-color: red;
+    border: none;
+    box-shadow: none;
+    border-radius: 0px;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 40px;
+    color: white;
+    font-size: 18px;
+}
+
+/* ////// */
+/* login */
+body{
+    background: rgb(0, 0, 0);
+}
+
+.l-l{
+    width: 700px;
+    height: 796px;
+    background-image: url('/img/mut.jpg');
+    background-size: cover;
+    opacity: 1;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 836px;
+    margin-top: -70px;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.login{
+    height: 596px;
+    width:800px;
+    background-color: rgb(0, 0, 0);
+    margin-left: -940px;
+}
+.login-cred{
+    font-family: 'Roboto', sans-serif;
+}
+.su{
+    display: block;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+.sp{
+    display: block;
+    color: white;
+    margin-bottom: 70px;
+}
+input {
+    background: rgb(157, 153, 153);
+    text-decoration: none;
+    outline: none;
+    border: none;
+    color: white;
+    margin-left: 100px;
+    padding: 5px 10px;
+}
+
+#sl {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    font-family: 'Alfa Slab One', cursive;
+    margin-top: 200px;
+}
+#l-c{
+width: 350px;
+background-color: rgb(255, 255, 255);
+margin-left: 10px;
+margin-bottom: 40px;
+font-family: 'Alfa Slab One', cursive;
+color: black;
+padding: 10px 10px;
+word-break: break-all;
+border: none;
+outline: none;
+height: 100px;
+}
+
+#l-b{
+    padding: 5px 30px;
+    background-color: red;
+    color: white;
+    box-shadow: none;
+    border: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(170, 170, 170);
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* ////// */
+/* About page */
+/* .a-container {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'Alfa Slab One', cursive;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.a-s {
+    color: gold;
+    font-size: 40px;
+    margin-left: 25px;
+}
+
+.a-d {
+    text-align: center;
+    background-color: rgb(18, 18, 18);
+    height: 180px;
+    width: 100vw;
+    margin-top: 50px;
+    margin-bottom: -14px;
+
+    box-shadow: 0px 0px 10px black;
+}
+
+.a-i {
+    height: 180px;
+    width: 100vw;
+    opacity: 0.03;
+    margin-top: -380px;
+    margin-left: -522px;
+}
+
+.a-se {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: rgb(219, 187, 3);
+    font-size: 50px;
+    font-family: 'Alfa Slab One', cursive;
+    margin-bottom: -14px;
+    background-color: black;
+    padding: 15px 0px;
+
+} */
+
+/* ////// */
+/* sign up */
+
+#r-sl {
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-family: 'Alfa Slab One', cursive;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.r-login {
+    margin-top: 80px;
+    margin-left: 120px;
+}
+
+.r-m {
+    margin-left: 120px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    margin-top: 130px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.r-s {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.r-b {
+    background-color: rgb(114, 2, 2);
+    color: white;
+    box-shadow: none;
+    border: none;
+    border-radius: 0px;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 45px;
+}
+
+.i-r {
+    background-color: rgba(128, 128, 128, 0.741);
+    border: none;
+    height: 33px;
+    width: 240px;
+    margin: 10px 0px;
+    padding-left: 10px;
+}
+
+.r-s-s {
+    font-size: 13px;
+    color: rgb(161, 3, 3);
+}
